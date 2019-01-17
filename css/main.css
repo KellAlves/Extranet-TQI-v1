@@ -1,0 +1,152 @@
+body{
+    background: url('../img/tqi-extranet-home-2.png'),
+                linear-gradient(to left, #6dd5ed, #15819c);
+
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.linha-extranet{
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: linear-gradient(to right, #6dd5ed, #15819c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 20px;
+}
+
+#formulario-entrada{
+    margin: 200px auto;
+    width: 210px;
+    height: 210px;
+    background: rgba(255, 255, 255, 0.082);
+    border-radius: 20px;
+    
+}
+
+.texto-entrada{
+    color: white;
+    margin: 10px 15px;
+}
+
+.botao-entrar{
+    border: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 37px;
+    background: rgb(66, 204, 156);
+    border-radius: 12px;
+    height: 30px;
+    width: 100px;
+    transition: background 500ms ease-in-out;
+    
+}
+
+.botao-entrar:hover{
+    background-color:rgb(63, 184, 123);
+}
+
+
+input[type=text] {
+    color: white;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #6dd5ed;
+    outline-width: 0;
+}
+
+input[type=password] {
+    color: white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #6dd5ed;
+    outline-width: 0;
+}
+
+h3{
+    text-align: center;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    width: 100%;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    background: linear-gradient(to left, #6dd5ed, #15819c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*FOOTER*/
+
+.logo{
+    margin: 5px 0 0 5px;
+    width: 100%;
+}
+
+.linha-footer{
+    display: block;
+    width: 100%;
+    height: 1px;
+    border: 0;
+    background: white;
+    margin-top: 15%;
+}
+
+ 
+ 
+/*====Queries====*/
+
+/*xs < 767px */
+@media screen and (max-width: 767px){
+    body{
+        background-size: 400%;
+    }
+    
+    #formulario-entrada{
+        margin: 185px auto;
+        width: 200px;
+        height: 200px;
+        background: rgba(255, 255, 255, 0.082);
+        border-radius: 20px;
+        
+    }
+
+    .botao-entrar{
+        margin: 15px 37px;    
+    }
+    
+}
+
+/*sm < 768px */
+@media screen and (min-width: 768px){
+    body{
+        background-size: 160%;
+    }
+    
+}
+
+/*md < 992px */
+@media screen and (min-width: 992px){
+    body{
+        background-size: 120%;
+    }
+    
+}
+
+/*lg < 1200px */
+@media screen and (min-width: 1200px){
+    body{
+        background-size: 100%;
+    }
+    
+}
+
